@@ -49,6 +49,7 @@ int main() {
     printf("Digite o numero de pontos turisticos tem a cidade :");
     scanf("%d",&turisticoA);
 
+    printf("************************************\n");
     //exibição do cadastro em ordem para checagem
     printf("Dados cadastrados com sucesso!\n");
     printf("Dados da primeira cidade:\n");
@@ -59,6 +60,8 @@ int main() {
     printf("Área:%f km² \n",areaA);
     printf("PIB:%f bilhões de reais \n",pibA);
     printf("Numero de pontos Turisticos: %d \n",turisticoA);
+
+    printf("*********************************\n");
 
 
     //segunda cidade
@@ -84,6 +87,8 @@ int main() {
     printf("Digite o numero de pontos turisticos tem a cidade :");
     scanf("%d",&turisticoB);
 
+
+    printf("**************************************\n");
     //exibição do cadastro em ordem para checagem
     printf("Dados cadastrados com sucesso!\n");
     printf("Dados da Segunda cidade:\n");
@@ -95,17 +100,18 @@ int main() {
     printf("PIB:%f bilhões de reais \n",pibB);
     printf("Numero de pontos Turisticos: %d \n",turisticoB);
 
+    printf("*********************************\n");
+
  
-
-
-
-    // Exemplo:
+     // Exemplo:
     // printf("Digite o código da cidade: ");
     // scanf("%s", codigo);
     
     // (Repita para cada propriedade)
 
     // Comparação de Cartas:
+
+    
     // Desenvolva a lógica de comparação entre duas cartas.
   
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
@@ -155,10 +161,11 @@ int main() {
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-   
+
     
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
+ 
     return 0;
 }
