@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         
+        
         {
             "name": "(gdb) Iniciar",
             "type": "cppdbg",
             "request": "launch",
-            "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.out",
+            "program": "superTrufo",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

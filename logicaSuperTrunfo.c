@@ -20,12 +20,13 @@ int main() {
     int turisticoA,turisticoB;
 
 
-    printf("Desafio Super Trunfo - Países");
+    printf("Desafio Super Trunfo - Países\n");
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
     //primeira cidade
+    printf("ENTRE COM OS DADOS DA PRIMEIRA CIDADE!\n")
     printf("Digite o codigo da cidade :");
     scanf("%d",&codigoA);
 
@@ -48,6 +49,7 @@ int main() {
     scanf("%d",&turisticoA);
 
     //segunda cidade
+    printf("ENTRE COM OS DADOS DA SEGUNDA CIDADE!\n")
     printf("Digite o codigo da cidade :");
     scanf("%d",&codigoB);
 
