@@ -11,6 +11,7 @@ int main() {
     
     char cidadeA[50];
     char cidadeB[50];
+    char cidadeVencedora;
     char estadoA[30];
     char estadoB[30];
     char codigoA[20],codigoB[20];
@@ -51,12 +52,12 @@ int main() {
     //exibição do cadastro em ordem para checagem
     printf("Dados cadastrados com sucesso!\n");
     printf("Dados da primeira cidade:\n");
-    printf("Estado: %s",estadoA);
-    printf("Codigo da carta:%s",codigoA);
-    printf("Nome da Cidade:%s",cidadeA);
-    printf("População:%f",populacaoA);
-    printf("Área:%f km²",areaA);
-    printf("PIB:%f bilhões de reais",pibA);
+    printf("Estado: %s \n",estadoA);
+    printf("Codigo da carta:%s \n",codigoA);
+    printf("Nome da Cidade:%s \n",cidadeA);
+    printf("População:%f \n",populacaoA);
+    printf("Área:%f km² \n",areaA);
+    printf("PIB:%f bilhões de reais \n",pibA);
     printf("Numero de pontos Turisticos: %d \n",turisticoA);
 
 
@@ -86,12 +87,12 @@ int main() {
     //exibição do cadastro em ordem para checagem
     printf("Dados cadastrados com sucesso!\n");
     printf("Dados da Segunda cidade:\n");
-    printf("Estado: %s",estadoB);
-    printf("Codigo da carta:%s",codigoB);
-    printf("Nome da Cidade:%s",cidadeA);
-    printf("População:%f",populacaoB);
-    printf("Área:%f km²",areaB);
-    printf("PIB:%f bilhões de reais",pibB);
+    printf("Estado: %s \n",estadoB);
+    printf("Codigo da carta:%s \n",codigoB);
+    printf("Nome da Cidade:%s \n",cidadeA);
+    printf("População:%f \n",populacaoB);
+    printf("Área:%f km² \n",areaB);
+    printf("PIB:%f bilhões de reais \n",pibB);
     printf("Numero de pontos Turisticos: %d \n",turisticoB);
 
  
@@ -106,6 +107,7 @@ int main() {
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
+  
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
 
     
@@ -153,7 +155,8 @@ int main() {
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
+   
+    
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
